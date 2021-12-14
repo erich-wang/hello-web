@@ -35,7 +35,7 @@ jobs:
         with:
           push: true
           tags: erichacr.azurecr.io/my-container-app007:${{ github.sha }}
-          file: ./Dockerfile
+          file: WebApplication1/Dockerfile
 
 
   deploy:
